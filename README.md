@@ -1,7 +1,8 @@
 # Todo flux application
 
 A simple task todo application
-Based on pattern React Flux
+Based on pattern React Flux 
+Written in ES6 and less
 
 Flux in overall
   first View -> user interacts -> action -> dispatcher -> module store creates onChange event that
