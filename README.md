@@ -1,4 +1,4 @@
-# Navigating with Link
+# Todo flux application
 
 A simple task todo application
 Based on pattern React Flux
