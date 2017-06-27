@@ -7,7 +7,7 @@ const CommentActions = {
   // Set currently selected contact variation
   selectComments: function (taskId) {
     AppDispatcher.handleAction({
-      actionType: ActionConstans.COMMENTS_SELECT,
+      actionType: ActionConstans.COMMENT_SELECT,
       data: taskId
     });
   },

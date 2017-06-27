@@ -7,7 +7,7 @@ let ActionTypes = keyMirror({
   
   COMMENT_ADD: null,
   COMMENT_REMOVE: null,
-  COMMENTS_SELECT: null,
+  COMMENT_SELECT: null,
 
   TASK_ADD: null,
   TASK_REMOVE: null,
