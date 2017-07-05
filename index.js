@@ -27,4 +27,10 @@ app.get('/',  function (req, res) {
     res.sendFile(path.join(__dirname + FRONTEND_DIR+'/index.html'));
 });
 
+
+//modules
+const data = require('./server/data');
+data.start(app, '', '', FRONTEND_DIR);
+
+
 app.listen(PORT);
